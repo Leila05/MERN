@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333; 
+  background-color: #f8f8f8; 
+  line-height: 1.6; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; 
+  color: #2d2d2d;
+  margin: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: silver;
+  height: 50px;
+}
+
+#Btneditar{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Btneditar:hover{
+  background-color: #45a049;
+}
+
+#Btneditar:active{
+  background-color: #3e8e41;
+}
+
+#Btneliminar{
+  padding: 10px 20px;
+  background-color: #314ba0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#Btneliminar:hover{
+  background-color: #4e6ac5;
+}
+
+#Btneliminar:active{
+  background-color: #6079cc;
+}
+
+#Btndetalle{
+  padding: 10px 20px;
+  background-color: #eede54;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Btndetalle:hover{
+  background-color: #c5b94e;
+}
+
+#Btndetalle:active{
+  background-color: #d4ca6c;
+}
+
+#Btncrear{
+  padding: 10px 20px;
+  background-color: #ee9254;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Btncrear:hover{
+  background-color: #e99c68;
+}
+
+#Btncrear:active{
+  background-color: #ebb28c;
+}
